@@ -1,0 +1,94 @@
+.fb-login-button{
+	margin-top:20px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login {
+  position: relative;
+  z-index: 1;
+  background: #16A085;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login h1{
+	color:white;
+}
+
+.container-login {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
+
+
+/* NAVIGATION */
+
+
+.navbar{
+border-width:0px;
+font-size:15px; 
+opacity:0.9;
+overflow:hidden;
+
+}
+.navbar-default{
+background-color:#16A085;
+}
+.nav>li{
+transition: background-color 0.5s
+}
+.nav>li:hover{
+background-color:#03C9A9;
+}
+.navbar-default .navbar-nav>li>a{
+color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+color:white;
+}
+
+.content{
+	margin-top:50px;
+	display:none;
+}
+
+.alert{
+	display:none;
+}
+
+.media{
+	background:#A2DED0;
+	padding:10px;
+	margin-top:10px;
+}
+.media-object{
+	width:100px;
+	height:100px;
+}
+
+.loader {
+	display:block;
+	margin: 200px auto;
+    border: 16px solid #16A085; 
+    border-top: 16px solid #A2DED0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

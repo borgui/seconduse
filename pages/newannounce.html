@@ -1,0 +1,65 @@
+<doctype>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Second Use -- New Announce</title>
+
+		<!-- ==== CSS ==== -->
+
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+	</head>
+	<body>
+
+		<!-- ======= NAVIGATION ======= -->
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="/"></span>HOME</a></li>
+					<li><a href="">MY ANNOUNCES (NOT AVAILABLE) </a></li>
+					<li><a href="/newannounce">NEW ANNOUNCE</a></li>
+					<li><a id="logout" href="">LOGOUT</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="content" id="content">
+			<div class="container">
+			<h1> New Announce </h1>
+			<form id="newAnnounce">
+			  <div class="form-group">
+			    <label for="title">Title</label>
+			    <input type="text" class="form-control" id="title" placeholder="Announce title">
+			  </div>
+			  <div class="form-group">
+			    <label for="description">Description</label>
+			    <textarea class="form-control" id="description" placeholder="Description"></textarea>
+			  </div>
+			  <div class="form-group">
+			  	<label for="location">Location</label>
+			  	<input type="text" class="form-control" id="location" placeholder="The place where a user can pick the object. Exemple: Efreitech, Villejuif 94 ">
+			  </div>
+			  <div class="form-group">
+			    <label for="imgsrc">Image</label>
+			    <input class="form-control" type="text" id="imgsrc" placeholder="Enter an image url. Exemple: http://mygallery.fr/cat.jpg">
+			  </div>
+			  <div id="submit" class="btn btn-default">Submit</div>
+			</form>
+			<div id="alert" class="alert alert-success">Announce successfully  created ! </div>
+			</div>
+		</div>
+				<!-- LOADING SPIN -->
+		<div id="loader" class="loader"></div>
+
+
+	</body>
+	<script src="assets/js/login.js"></script>
+	<script src="assets/js/logout.js"></script>
+	<script src="assets/js/class/announce.js"></script>
+	<script src="assets/js/class/firebase.js"></script>
+	<script src="assets/js/newannounce.js"></script>
+
+</html>
+</doctype>

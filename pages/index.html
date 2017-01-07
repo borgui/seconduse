@@ -1,0 +1,51 @@
+<doctype>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Seconde Use -- Home</title>
+
+		<!-- ==== CSS ==== -->
+
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+	</head>
+	<body>
+
+		<!-- ======= NAVIGATION ======= -->
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="/"></span>HOME</a></li>
+					<li><a href="">MY ANNOUNCES</a></li>
+					<li><a href="/newannounce">NEW ANNOUNCE</a></li>
+					<li><a href="#" id="logout">LOGOUT</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- ======= HOME ======= -->
+		<div class="content" id="content">
+			<div class="container">
+				<h1>Second Use</h1>
+				<h3>Current announces : </h3>
+				<div id="announces">
+				
+
+				</div>
+
+			</div>
+		</div>
+			<!-- LOADING SPIN -->
+		<div id="loader" class="loader"></div>
+
+
+	</body>
+	<script src="assets/js/login.js"></script>
+	<script src="assets/js/logout.js"></script>
+	<script src="assets/js/class/firebase.js"></script>
+	<script src="assets/js/class/announce.js"></script>
+	<script src="assets/js/index.js"></script>
+</html>
+</doctype>
