@@ -1,1 +1,1 @@
-Second use, student project
+Second use, student project by Guillaume BORDANAVE
